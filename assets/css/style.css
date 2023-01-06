@@ -1,0 +1,162 @@
+.hide {
+    display: none;
+}
+
+
+.intro {
+    position: relative;
+    left: 35%;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* margin: auto; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    top: 3vh;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.duction, .duction1, .duction2, .result_terminal {
+    position: relative;
+    left: 13%;
+    top: 3vh;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.result_terminal {
+    top: 40vh;
+    padding-top: 10px;
+    width: 80vw;
+    border-top: 2px solid black;
+}
+
+.startBtn, .answer1, .answer2, .answer3, .answer4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #04036b;
+    width: 130px;
+    justify-content: right;
+    margin-top: 4vh;
+    height: 30px;
+    margin-left: 45%;
+    box-shadow: 0px 0px 9px darkslategrey;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.answer1, .answer2, .answer3, .answer4 {
+    position: relative;
+    visibility: hidden;
+    color: yellow;
+    top: 30vh;
+    /* align-items: center; */
+}
+
+/* .answer1 {
+    top: 15vh;
+}
+.answer2 {
+    top: 17vh;
+}
+.answer3 {
+    top: 19vh;
+}
+.answer4 {
+    top: 21vh;
+} */
+
+.startBtn:hover, .answer1:hover, .answer2:hover, .answer3:hover, .answer4:hover{
+    box-shadow: 0px 0px 18px orange;
+    background-color: rgb(0, 255, 213);
+    color: darkslategrey;
+    cursor: pointer;
+}
+
+.time-box {
+    position: absolute;
+}
+
+.timer {
+    /* position: relative; */
+    position: absolute;
+    flex-direction:row;
+    /* right: 50vw; */
+    margin-left: 90vw;
+}
+
+.time_note {
+    position: relative;
+    top: 5vh;
+    /* left: 60vw; */
+    font-size: 20px;
+}
+
+.question_field {
+    display: flex;
+    position: relative;
+    top: 150px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightskyblue;
+    font-size: 20px;
+    color: black;
+    align-items: center;
+}
+
+/* Adjusting elements manually to compensate for failure to center position relative classes */
+@media screen and (min-width: 368px) {
+    .time_note {
+        left: 60vw;
+    }
+    .intro {
+        left: 30%;
+    }
+    .duction, .duction1 {
+        left: 12%;
+    }
+    .duction2 {
+        left: 27%
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .time_note {
+        left: 60vw;
+    }
+    .intro {
+        left: 35%;
+    }
+    .duction, .duction1 {
+        left: 20%;
+    }
+    .duction2 {
+        left: 32%
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .time_note {
+        left: 75vw;
+    }
+    .intro {
+        left: 40%;
+    }
+    .duction, .duction1 {
+        left: 32%;
+    }
+    .duction2 {
+        left: 41%;
+    }
+}
+
+@media screen and (min-height: 256px)
+{
+    .answer1, .answer2, .answer3, .answer4 {
+        top: 20vh;
+    }
+}
