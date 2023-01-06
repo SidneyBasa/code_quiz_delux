@@ -11,3 +11,6 @@ The syntax in JavaScript to interact with elements of an HTML page were studied 
 This challenge has shown me that I require more JavaScript, HTML and CSS practice.
 
 ![A screen shot of the partially functioning website code quiz delux](https://github.com/SidneyBasa/code_quiz_delux/blob/main/screenshot.jpg?raw=true)
+
+## URL of Deployed webpage
+https://sidneybasa.github.io/code_quiz_delux/
